@@ -33,6 +33,9 @@ public class BaseTest implements IDriver {
     }
 
     public WebPageObject getWebPo() {
+        if (webPo == null) {
+            webPo = new WebPageObject(getDriver());
+        }
         return webPo;
     }
 
@@ -46,7 +49,7 @@ public class BaseTest implements IDriver {
 
     @AfterSuite(alwaysRun = true)
     public void tearDown() throws Exception {
-        System.out.println("After");
+        //System.out.println("After");
         appiumDriver.closeApp();
     }
 
