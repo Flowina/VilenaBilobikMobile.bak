@@ -3,9 +3,9 @@ package pageObjects;
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AppiumFieldDecorator;
 import org.openqa.selenium.support.PageFactory;
-import pageObjects.nativePoageObjects.BudgetPageObject;
-import pageObjects.nativePoageObjects.LogInPageObject;
-import pageObjects.nativePoageObjects.RegistrationPageObject;
+import pageObjects.nativePageObjects.BudgetPageObject;
+import pageObjects.nativePageObjects.LogInPageObject;
+import pageObjects.nativePageObjects.RegistrationPageObject;
 
 public class NativePageObject {
 

@@ -1,4 +1,4 @@
-package pageObjects.nativePoageObjects;
+package pageObjects.nativePageObjects;
 
 import io.appium.java_client.AppiumDriver;
 import io.appium.java_client.pagefactory.AndroidFindBy;

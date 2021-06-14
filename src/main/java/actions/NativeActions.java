@@ -1,7 +1,7 @@
 package actions;
 
 import pageObjects.NativePageObject;
-import pageObjects.nativePoageObjects.*;
+import pageObjects.nativePageObjects.*;
 
 public class NativeActions {
     private NativePageObject po;
